@@ -1,0 +1,9 @@
+**Activity 1: C/C++ Development Environment Setup Note**
+
+1. I installed Visual Studio Code and the Microsoft C/C++ extension.
+2. I installed the GCC compiler using MinGW-w64.
+3. Initially, the compiler commands might not work if the compiler path is not configured correctly.
+4. I resolved this by checking that the GCC `bin` folder was added to the Windows PATH environment variable.
+5. I opened a new terminal and verified the setup using `gcc --version` and `g++ --version`.
+6. I created `hello.c` and compiled it using `gcc hello.c -o hello.exe`.
+7. Finally, I ran the program and confirmed that it displayed `Hello, World!`.
